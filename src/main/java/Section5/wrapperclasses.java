@@ -10,7 +10,7 @@ public class wrapperclasses {
 
         Integer intobj = Integer.valueOf(a);
         Character chobj = Character.valueOf(c);
-        Boolean boolobj = Boolean.valueOf(flag);
+        Boolean bool_obj = Boolean.valueOf(flag);
 
         Double doubleobj = 20.33;
 
@@ -19,7 +19,7 @@ public class wrapperclasses {
 
         System.out.println("integer object: "+ intobj);
         System.out.println("character object: "+ c);
-        System.out.println("Boolean object: "+boolobj);
+        System.out.println("Boolean object: "+ bool_obj);
         System.out.println("Double Object: "+doubleobj);
 
         System.out.println("unboxed int: "+ unboxInt);
